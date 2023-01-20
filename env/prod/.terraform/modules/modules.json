@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"prod","Source":"../../infra","Dir":"../../infra"}]}
+{"Modules":[{"Key":"prod","Source":"../../infra","Dir":"../../infra"},{"Key":"","Source":"","Dir":"."},{"Key":"prod.vpc","Source":"registry.terraform.io/terraform-aws-modules/vpc/aws","Version":"3.19.0","Dir":".terraform/modules/prod.vpc"}]}
