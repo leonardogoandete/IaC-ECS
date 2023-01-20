@@ -23,7 +23,7 @@ resource "aws_ecs_task_definition" "Django-api" {
   container_definitions    = jsonencode(
 [
   {
-    "name" = var.ambiente
+    "name" = "producao"
     "image" = "447542562697.dkr.ecr.us-west-2.amazonaws.com/producao:v1"
     "cpu" = 256
     "memory" = 512
