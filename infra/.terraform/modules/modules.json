@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"ecs","Source":"registry.terraform.io/terraform-aws-modules/ecs/aws","Version":"4.1.2","Dir":".terraform/modules/ecs"},{"Key":"vpc","Source":"registry.terraform.io/terraform-aws-modules/vpc/aws","Version":"3.19.0","Dir":".terraform/modules/vpc"},{"Key":"","Source":"","Dir":"."}]}
