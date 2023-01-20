@@ -50,4 +50,14 @@ resource "aws_ecs_service" "Django-API" {
     container_name   = "producao"
     container_port   = 8000
   }
+
+  network_configuration {
+    subnets = module.vpc.private_subnets
+    security_groups = [aws_security_group.privado.id]
+  }
+
+  capacity_provider_strategy {
+    capacity_provider = "FARGATE"
+    weight = 1
+  }
 }
